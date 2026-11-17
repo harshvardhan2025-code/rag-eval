@@ -1,20 +1,18 @@
 [
   {
-    "metric": "answer_relevancy",
-    "input": "What is the tuition fee per year?",
-    "actual_output": "The tuition fee for B.Tech is Rs 1,20,000 per year [1].",
+    "metric": "faithfulness",
+    "input": "How many nights of hostel leave can I take without a letter from my parents?",
+    "actual_output": "You can take up to 12 nights of hostel leave per semester without a letter from your parents [1, 2].",
     "score": 1.0,
-    "threshold": 0.7,
     "passed": true,
-    "reason": "The score is 1.00 because the actual output directly and accurately addresses the input without including any irrelevant statements."
+    "reason": "The score is 1.00 because the actual output is completely faithful to the retrieval context with no contradictions found. Great job!"
   },
   {
-    "metric": "answer_relevancy",
-    "input": "When does the even semester start and end?",
-    "actual_output": "The even semester runs from 12 January to 30 May [1].",
+    "metric": "faithfulness",
+    "input": "What is the minimum CGPA needed for placements?",
+    "actual_output": "To be eligible for placements, a student needs a CGPA of at least 6.5 [1].",
     "score": 1.0,
-    "threshold": 0.7,
     "passed": true,
-    "reason": "The score is 1.00 because the actual output directly and accurately addresses the input without including any irrelevant statements."
+    "reason": "The score is 1.00 because the actual output is completely faithful to the retrieval context with no contradictions found. Great job!"
   }
 ]
