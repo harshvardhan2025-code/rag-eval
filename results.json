@@ -1,0 +1,20 @@
+[
+  {
+    "metric": "answer_relevancy",
+    "input": "What is the tuition fee per year?",
+    "actual_output": "The tuition fee for B.Tech is Rs 1,20,000 per year [1].",
+    "score": 1.0,
+    "threshold": 0.7,
+    "passed": true,
+    "reason": "The score is 1.00 because the actual output directly and accurately addresses the input without including any irrelevant statements."
+  },
+  {
+    "metric": "answer_relevancy",
+    "input": "When does the even semester start and end?",
+    "actual_output": "The even semester runs from 12 January to 30 May [1].",
+    "score": 1.0,
+    "threshold": 0.7,
+    "passed": true,
+    "reason": "The score is 1.00 because the actual output directly and accurately addresses the input without including any irrelevant statements."
+  }
+]
